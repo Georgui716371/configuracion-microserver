@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: config-server
+            uri: https://github.com/Georgui716371/microservicios-sd/tree/config-server
+            search-paths: config-data
+
+  aplication:
+    name: config-service

@@ -7,7 +7,7 @@ spring:
       server:
         git:
           default-label: config-server
-            uri: https://github.com/Georgui716371/microservicios-sd/tree/config-server
+            uri: https://github.com/Georgui716371/configuracion-microserver
             search-paths: config-data
 
   aplication:
